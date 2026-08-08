@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 220px;
+    /* background-color: red; */
+    border-bottom: 1px solid #e5e5e5;
+
+    .crown{
+        display: flex;
+        align-items: center;
+        gap: 7px;
+
+    img{
+        width: 20px;
+        height: 20px;
+        border: 1.5px solid lightgrey;
+        padding: 5px;
+        border-radius: 6px;
+        }
+    }
+
+    .more{
+        display: flex;
+        gap: 2px;
+
+        img{
+            width: 14px;
+            height: 14px;
+            padding-top: 21px;
+        }
+    }
+
+    .middle{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    }
+
+    .logo{
+        align-self: center;
+    }
+}
+
