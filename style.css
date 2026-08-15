@@ -144,7 +144,7 @@ header
 
 /* Illustrations */
 .illustrations{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -241,10 +241,10 @@ header
     background-color: #E0E7FF;
     border-radius: 10px;
     padding: 120px 7px;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1100px;
     text-align: center;
-    background-color: red;
+    /* background-color: red; */
 
     display: flex;
     flex-direction: column;
@@ -320,6 +320,7 @@ header
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
+    padding: 25px;
 
     h2 {
     font-size: 20px;
@@ -358,4 +359,43 @@ header
 .card6 img {
     width: 100px;
     height: auto;
+}
+
+@media (max-width: 500px) {
+    .cardcontainer {
+        width: 90%;
+        margin: 60px auto;
+        }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 30px;
+
+        img {
+        width: 100px;
+        }
+
+        h2 {
+        font-size: 18px;
+        }
+
+        p {
+        font-size: 14px;
+        line-height: 1.5;
+        }
+    }
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+       
+    }
 }
