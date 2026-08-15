@@ -144,7 +144,7 @@ header
 
 /* Illustrations */
 .illustrations{
-    /* background-color: red; */
+    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -244,6 +244,7 @@ header
     margin: auto;
     max-width: 1100px;
     text-align: center;
+    background-color: red;
 
     display: flex;
     flex-direction: column;
@@ -303,4 +304,58 @@ header
 /* Banner */
 
 
-/* Banner */
+/* Cards */
+.cardcontainer {
+    width: 90%;
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+    h2 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    }
+
+    p {
+    font-size: 15px;
+    line-height: 1.6;
+    }
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    text-align: left;
+    border: 1px solid #E0E7FF;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.card1 img {
+    width: 125px;
+}
+
+.card5 img {
+    width: 150px;
+}
+
+.card2 img,
+.card3 img,
+.card4 img,
+.card6 img {
+    width: 100px;
+    height: auto;
+}
