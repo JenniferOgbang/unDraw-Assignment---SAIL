@@ -307,8 +307,8 @@ header
 /* Cards */
 .cardcontainer {
     width: 90%;
-    max-width: 1100px;
-    margin: 100px auto;
+    max-width: 1500px;
+    margin: 100px auto 30px;
 }
 
 .title {
@@ -321,6 +321,7 @@ header
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     padding: 25px;
+    margin: 40px;
 
     h2 {
     font-size: 20px;
@@ -361,6 +362,11 @@ header
     height: auto;
 }
 
+button {
+    display: block;
+    margin: 0 auto 20px;
+}
+
 @media (max-width: 500px) {
     .cardcontainer {
         width: 90%;
@@ -389,13 +395,95 @@ header
         font-size: 24px;
         margin-bottom: 30px;
     }
+}
+/* Cards */
 
-    .card1,
-    .card2,
-    .card3,
-    .card4,
-    .card5,
-    .card6 {
-       
+
+/* Footer */
+.footer {
+    padding: 50px 7%;
+    max-width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+
+    p {
+    margin: 0;
+    font-size: 14px;
     }
 }
+
+.link {
+    display: flex;
+    gap: 30px;
+
+    a {
+    text-decoration: none;
+    color: #374151;
+    font-size: 14px;
+    }
+
+    p {
+    text-decoration: none;
+    color: #374151;
+    font-size: 14px;
+    }
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    
+    p {
+    margin: 0;
+    font-size: 14px;
+    color: #6B7280;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .footer1 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding-bottom: 20px;
+
+        p {
+        font-size: 13px;
+        }
+    }
+
+    .link {
+        flex-wrap: wrap;
+        gap: 15px 25px;
+
+        a {
+        font-size: 13px;
+        }
+    }
+
+    .footer2 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding-top: 15px;
+
+        p {
+        font-size: 13px;
+        }
+    }
+}
+/* Footer */
