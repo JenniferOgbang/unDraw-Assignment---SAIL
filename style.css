@@ -458,6 +458,12 @@ button {
     .card5 img {
         width: 130px;
     }
+
+    button {
+    width: 300px;
+    padding: 15px 0;
+    font-size: 13px;
+    }
 }
 /* Cards */
 
